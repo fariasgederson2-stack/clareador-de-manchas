@@ -1,0 +1,202 @@
+Create a highly persuasive, aggressive Brazilian Portuguese sales page (long-form landing page) for a skin dark spot remover cream (clareador de manchas de pele).
+
+IMPORTANT:
+
+The entire page content must be written in Brazilian Portuguese.
+
+The structure instructions are in English, but ALL visible text must be in Portuguese (Brasil).
+
+The tone must be bold, emotionally persuasive, urgent, and conversion-focused.
+
+This page must be unique and specifically written for a skin dark spot remover cream.
+
+The biggest selling point is: PAYMENT ONLY ON DELIVERY ("PAGAMENTO SOMENTE NA ENTREGA").
+
+Emphasize this benefit repeatedly throughout the page.
+
+Place “PAGAMENTO SOMENTE NA ENTREGA” in the top header, hero section, buttons, guarantee section, and closing section.
+
+Do NOT make illegal medical claims. Avoid saying it “cures diseases.” Instead, use cosmetic language like: ajuda a clarear, auxilia na uniformização, melhora a aparência da pele, etc.
+
+PRODUCT CONTEXT:
+
+Product: Skin dark spot remover cream (clareador de manchas de pele)
+Target audience: Women and men who suffer from:
+
+Manchas no rosto
+
+Melasma
+
+Manchas de sol
+
+Manchas de acne
+
+Pele escura em áreas específicas
+
+Baixa autoestima por causa da pele manchada
+
+Big Differentiator:
+Customer ONLY pays when the product arrives at their house.
+No upfront payment.
+No risk.
+Payment on delivery.
+Use strong psychological triggers: security, trust, urgency, scarcity, transformation, confidence, social proof.
+
+PAGE STRUCTURE TO FOLLOW:
+
+Sticky Top Bar
+Aggressive headline:
+"PAGUE SOMENTE NA ENTREGA – VOCÊ SÓ PAGA QUANDO RECEBER EM CASA!"
+
+Hero Section
+
+Big emotional headline about eliminating dark spots and restoring confidence.
+
+Subheadline reinforcing payment only on delivery.
+
+CTA button: "QUERO RECEBER E PAGAR SÓ NA ENTREGA"
+
+Mention limited stock.
+
+Problem Agitation Section
+Describe emotional pain:
+
+Vergonha de sair sem maquiagem
+
+Evitar fotos
+
+Comentários das pessoas
+
+Gastar dinheiro com produtos que não funcionam
+
+Make it emotional and relatable.
+
+Solution Section
+Introduce the cream as the practical, safe, accessible solution.
+Focus on:
+
+Fórmula desenvolvida para auxiliar no clareamento
+
+Ajuda a uniformizar o tom da pele
+
+Textura leve
+
+Fácil aplicação
+
+Uso diário
+
+Reinforce again:
+"Pague somente quando o produto chegar na sua casa."
+
+Before and After Section
+IMPORTANT:
+Use the images provided by the user.
+Insert image placeholders like:
+
+before-after-1.jpg
+
+before-after-2.jpg
+
+before-after-3.jpg
+
+Describe them as real customer transformations.
+Add persuasive captions.
+Include testimonial-style quotes below each image.
+
+Benefits Section
+Bullet points:
+
+Ajuda a reduzir manchas visíveis
+
+Auxilia na uniformização do tom da pele
+
+Melhora a aparência geral
+
+Pele com aspecto mais iluminado
+
+Fórmula prática para usar diariamente
+
+Trust & Risk Reversal Section
+Strong section about:
+
+PAGAMENTO SOMENTE NA ENTREGA
+
+Cliente só paga quando recebe
+
+Sem risco
+
+Sem pagamento antecipado
+
+Segurança total
+
+Create a bold headline like:
+"ZERO RISCO: VOCÊ SÓ PAGA QUANDO ESTIVER COM O PRODUTO EM MÃOS!"
+
+Urgency Section
+
+Estoque limitado
+
+Alta demanda
+
+Pode esgotar a qualquer momento
+
+CTA repeated
+
+FAQ Section
+Include objections:
+
+Em quanto tempo vejo resultados?
+
+Como funciona o pagamento na entrega?
+
+Tem taxa escondida?
+
+É seguro?
+
+Posso usar todos os dias?
+
+Final Closing Section
+Extremely persuasive emotional closing.
+Reinforce:
+
+Autoestima
+
+Confiança
+
+Liberdade
+
+Segurança
+
+Pagamento só na entrega
+
+Final CTA:
+"QUERO RECEBER EM CASA E PAGAR SOMENTE NA ENTREGA"
+
+DESIGN INSTRUCTIONS:
+
+Modern, clean, high-converting layout.
+
+Use sections with strong headlines.
+
+Use bold typography for important phrases like:
+PAGAMENTO SOMENTE NA ENTREGA
+
+Use contrasting CTA buttons.
+
+Make it mobile responsive.
+
+Use HTML + CSS in a single file.
+
+Add subtle animations (optional but recommended).
+
+Optimize for conversion.
+
+LEGAL NOTE:
+
+Do not claim it cures diseases.
+Do not claim guaranteed medical results.
+Use cosmetic language only.
+
+Create the complete HTML file with embedded CSS, ready to publish.
+
+Make it extremely persuasive, emotionally powerful, and conversion optimized for Brazilian customers.
