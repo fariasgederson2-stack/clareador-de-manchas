@@ -26,7 +26,13 @@ export default function Home() {
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
 
-  const handleCTA = () => { window.location.href = CHECKOUT_URL; };
+const handleCTA = () => {
+  window.open(CHECKOUT_URL, '_blank');
+
+  setTimeout(() => {
+    window.location.href = '/obrigado.html';
+  }, 3000);
+};
 
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900 overflow-x-hidden selection:bg-pink-300 selection:text-pink-900 text-base md:text-lg">
