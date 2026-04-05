@@ -35,58 +35,54 @@ const handleCTA = () => {
 };
 
   return (
-    <div className="min-h-screen bg-white font-sans text-gray-900 overflow-x-hidden selection:bg-pink-300 selection:text-pink-900 text-base md:text-lg">
-      
-      {/* Dynamic Scarcity Top Bar */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-black text-white text-center py-2 md:py-3 px-4 font-black text-xs md:text-sm flex items-center justify-center gap-4 shadow-2xl border-b border-yellow-500/30 uppercase">
-        <div className="flex items-center gap-2 text-yellow-400">
-          <Users className="w-4 h-4 animate-pulse" />
-          <span>{viewers} pessoas vendo agora</span>
-        </div>
-        <div className="hidden md:block w-px h-4 bg-gray-700"></div>
-        <div className="flex items-center gap-2 text-red-500">
-          <Flame className="w-4 h-4 animate-bounce" />
-          <span>Restam apenas {stock} unidades</span>
-        </div>
-      </div>
+    <div className="max-w-md mx-auto mt-8 text-center space-y-4">
 
-      {/* Floating Sticky Bottom Mobile Button */}
-      <div className="md:hidden fixed bottom-4 left-4 right-4 z-[60] animate-in fade-in slide-in-from-bottom-10 duration-1000">
-       <div className="w-full max-w-md mx-auto space-y-4">
+  {/* PROVA SOCIAL */}
+  <p className="text-sm font-bold text-green-600">
+    ⭐ 4.8/5 baseado em mais de 2.347 clientes
+  </p>
+
+  {/* ESCASSEZ */}
+  <p className="text-red-600 font-bold text-sm">
+    ⚠️ Restam apenas {stock} unidades hoje
+  </p>
 
   {/* 1 UNIDADE */}
-<a href="https://app.coinzz.com.br/checkout/1-unidade-f2zsa-0" target="_blank">
-  <button className="w-full bg-green-500 text-white font-bold py-4 rounded-xl">
-    Comprar 1 Unidade - R$ 97
-  </button>
-</a>
+  <a href="https://app.coinzz.com.br/checkout/1-unidade-f2zsa-0" target="_blank">
+    <button className="w-full bg-gray-200 text-black font-bold py-4 rounded-xl">
+      1 Unidade - R$ 97
+    </button>
+  </a>
 
-  {/* 2 UNIDADES */}
-  <a href="https://app.coinzz.com.br/checkout/2-unidades-vf4ic-0" target="_blank">
-  <button className="w-full bg-blue-500 text-white font-bold py-4 rounded-xl border-2 border-black">
-    🔥 Mais Vendido - 2 Unidades - R$ 189,90
-  </button>
-</a>
+  {/* 2 UNIDADES (DESTAQUE) */}
+  <div className="border-2 border-black rounded-xl p-2 shadow-lg">
+    <p className="text-sm font-bold text-orange-500">🔥 MAIS VENDIDO</p>
+    <a href="https://app.coinzz.com.br/checkout/2-unidades-vf4ic-0" target="_blank">
+      <button className="w-full bg-blue-600 text-white font-bold py-5 rounded-xl text-lg">
+        2 Unidades - R$ 169,90 
+        <br />
+        <span className="text-sm">Economize R$ 50 hoje</span>
+      </button>
+    </a>
+  </div>
 
   {/* 3 UNIDADES */}
-         <a href="https://app.coinzz.com.br/checkout/3-unidades-dez-porcento-desconto-0" target="_blank">
-  <button className="w-full bg-red-500 text-white font-bold py-4 rounded-xl">
-    💎 Melhor Oferta - 3 Unidades - R$ 259,90
-  </button>
-</a>
+  <a href="https://app.coinzz.com.br/checkout/3-unidades-dez-porcento-desconto-0" target="_blank">
+    <button className="w-full bg-red-500 text-white font-bold py-4 rounded-xl">
+      💎 3 Unidades - R$ 239,90 
+      <br />
+      <span className="text-sm">Melhor custo-benefício</span>
+    </button>
+  </a>
+
+  {/* GARANTIAS */}
+  <div className="flex justify-center gap-4 text-xs mt-4 opacity-80">
+    <span>🚚 Frete grátis</span>
+    <span>💰 Pague na entrega</span>
+    <span>✔ Garantia</span>
+  </div>
 
 </div>
-      </div>
-
-      {/* Hero Section */}
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4 w-full flex justify-center bg-gradient-to-b from-pink-50 via-white to-white relative overflow-hidden">
-        <div className="absolute top-20 right-[-10%] w-96 h-96 bg-pink-200 rounded-full blur-[120px] opacity-20 animate-pulse"></div>
-        <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-10 md:gap-16 relative z-10">
-          <div className="w-full md:w-1/2 space-y-6 text-center md:text-left flex flex-col items-center md:items-start">
-            <div className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-1.5 rounded-full text-xs font-black tracking-widest uppercase animate-pulse shadow-lg">
-              <Percent className="w-4 h-4" />
-              OFERTA DE LANÇAMENTO: 50% OFF
-            </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight text-gray-900 tracking-tighter">
               Diga Adeus ao Melasma e <span className="text-pink-600">Sinta-se Linda</span> Novamente
