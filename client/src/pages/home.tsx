@@ -208,16 +208,30 @@ const handleCTA = () => {
               Ao fechar esta página, você poderá perder o desconto de 50% e o frete grátis para sempre.
             </p>
             
-            <button 
-              onClick={handleCTA}
-              className="w-full bg-green-500 hover:bg-green-600 text-white font-black text-2xl md:text-4xl py-10 px-8 rounded-3xl shadow-[0_0_50px_rgba(34,197,94,0.5)] transform transition hover:-translate-y-2 flex flex-col items-center justify-center gap-2 border-b-8 border-green-700 animate-shine animate-bounce-subtle group"
-            >
-              <span className="flex items-center gap-4">
-                SIM! QUERO PAGAR SÓ NA ENTREGA
-                <ArrowRight className="w-10 h-10 group-hover:translate-x-3 transition-transform" />
-              </span>
-              <span className="text-sm font-bold opacity-90 uppercase tracking-[0.2em]">Estoque crítico: apenas {stock} unidades</span>
-            </button>
+       <div className="space-y-4 mt-6">
+
+  {/* 1 UNIDADE */}
+  <a href="https://app.coinzz.com.br/checkout/1-unidade-f2zsa-0" target="_blank">
+    <button className="w-full bg-green-500 text-white font-bold py-4 rounded-xl">
+      Comprar 1 Unidade - R$ 97
+    </button>
+  </a>
+
+  {/* 2 UNIDADES */}
+  <a href="https://app.coinzz.com.br/checkout/2-unidades-vf4ic-0" target="_blank">
+    <button className="w-full bg-blue-500 text-white font-bold py-4 rounded-xl border-2 border-black">
+      🔥 Mais Vendido - 2 Unidades - R$ 189,90
+    </button>
+  </a>
+
+  {/* 3 UNIDADES */}
+  <a href="https://app.coinzz.com.br/checkout/3-unidades-dez-porcento-desconto-0" target="_blank">
+    <button className="w-full bg-red-500 text-white font-bold py-4 rounded-xl">
+      💎 Melhor Oferta - 3 Unidades - R$ 197
+    </button>
+  </a>
+
+</div>
             
             <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6 grayscale opacity-60">
               <div className="flex flex-col items-center gap-2">
