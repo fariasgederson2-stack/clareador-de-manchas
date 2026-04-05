@@ -52,13 +52,30 @@ const handleCTA = () => {
 
       {/* Floating Sticky Bottom Mobile Button */}
       <div className="md:hidden fixed bottom-4 left-4 right-4 z-[60] animate-in fade-in slide-in-from-bottom-10 duration-1000">
-        <button 
-          onClick={handleCTA}
-          className="w-full bg-green-500 text-white font-black py-4 px-6 rounded-2xl shadow-[0_0_30px_rgba(34,197,94,0.6)] flex items-center justify-center gap-2 text-lg active:scale-95 transition-transform border-b-4 border-green-700 active:border-b-0 animate-bounce-subtle animate-shine"
-        >
-          PAGAR SÓ NA ENTREGA
-          <ArrowRight className="w-5 h-5" />
-        </button>
+       <div className="w-full max-w-md mx-auto space-y-4">
+
+  {/* 1 UNIDADE */}
+<a href="https://app.coinzz.com.br/checkout/1-unidade-f2zsa-0" target="_blank">
+  <button className="w-full bg-green-500 text-white font-bold py-4 rounded-xl">
+    Comprar 1 Unidade - R$ 97
+  </button>
+</a>
+
+  {/* 2 UNIDADES */}
+  <a href="https://app.coinzz.com.br/checkout/2-unidades-vf4ic-0" target="_blank">
+  <button className="w-full bg-blue-500 text-white font-bold py-4 rounded-xl border-2 border-black">
+    🔥 Mais Vendido - 2 Unidades - R$ 189,90
+  </button>
+</a>
+
+  {/* 3 UNIDADES */}
+ <a href="https://app.coinzz.com.br/checkout/3-unidades-dez-porcento-desconto-0" target="_blank">
+  <button className="w-full bg-red-500 text-white font-bold py-4 rounded-xl">
+    💎 Melhor Oferta - 3 Unidades - R$ 197
+  </button>
+</a>
+
+</div>
       </div>
 
       {/* Hero Section */}
