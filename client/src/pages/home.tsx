@@ -69,7 +69,7 @@ const handleCTA = () => {
 </a>
 
   {/* 3 UNIDADES */}
- <a href="https://app.coinzz.com.br/checkout/3-unidades-dez-porcento-desconto-0" target="_blank">
+         <a href="https://app.coinzz.com.br/checkout/3-unidades-dez-porcento-desconto-0" target="_blank">
   <button className="w-full bg-red-500 text-white font-bold py-4 rounded-xl">
     💎 Melhor Oferta - 3 Unidades - R$ 259,90
   </button>
