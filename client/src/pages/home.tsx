@@ -60,8 +60,7 @@ const handleCTA = () => {
     <a href="https://app.coinzz.com.br/checkout/2-unidades-vf4ic-0" target="_blank">
       <button className="w-full bg-blue-600 text-white font-bold py-5 rounded-xl text-lg">
         2 Unidades - R$ 169,90 
-        <br />
-        <span className="text-sm">Economize R$ 50 hoje</span>
+        <br /><span className="text-sm">Leve 2 e economize R$ 25 por unidade</span>
       </button>
     </a>
   </div>
@@ -71,7 +70,7 @@ const handleCTA = () => {
     <button className="w-full bg-red-500 text-white font-bold py-4 rounded-xl">
       💎 3 Unidades - R$ 239,90 
       <br />
-      <span className="text-sm">Melhor custo-benefício</span>
+      <span className="text-sm">Maior desconto + frete grátis</span>
     </button>
   </a>
 
@@ -83,14 +82,18 @@ const handleCTA = () => {
   </div>
 
 </div>
-            
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight text-gray-900 tracking-tighter">
-              Diga Adeus ao Melasma e <span className="text-pink-600">Sinta-se Linda</span> Novamente
-            </h1>
-            
-            <p className="text-xl md:text-2xl text-gray-600 font-medium max-w-lg leading-relaxed">
-              O segredo das clínicas de estética agora na sua casa. <strong className="text-gray-900 underline decoration-yellow-400 decoration-4">Sem procedimentos caros</strong> e com segurança total.
-            </p>
+
+<h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight text-gray-900 tracking-tighter">
+  Diga Adeus ao Melasma e <span className="text-pink-600">Sinta-se Linda</span> Novamente
+</h1>
+
+</div>
+
+<p className="text-xl md:text-2xl text-gray-600 font-medium max-w-lg leading-relaxed">
+  O segredo das clínicas de estética agora na sua casa...
+</p>
+
+</div>
 
             {/* Price Anchoring */}
             <div className="flex flex-col items-center md:items-start gap-1 py-4">
@@ -283,3 +286,4 @@ const handleCTA = () => {
     </div>
   );
 }
+)
