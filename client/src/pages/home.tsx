@@ -286,4 +286,3 @@ const handleCTA = () => {
     </div>
   );
 }
-)
